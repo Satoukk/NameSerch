@@ -1,0 +1,54 @@
+.home {
+  background: #f5f8fc;
+  color: #26364a;
+}
+
+.home-content {
+  max-width: 600px;
+}
+
+.home .home-label {
+  color: #3166a5;
+  letter-spacing: 0.12em;
+}
+
+.home .home-title {
+  color: #26364a;
+  font-size: clamp(2rem, 6vw, 3rem);
+  letter-spacing: 0;
+}
+
+.home-description {
+  color: #586779;
+  line-height: 1.9;
+}
+.game {
+  background: #f5f8fc;
+  color: #26364a;
+}
+
+.game-content {
+  max-width: 600px;
+}
+
+.game .game-title {
+  font-size: clamp(1.6rem, 5vw, 2.4rem);
+  color: #26364a;
+  line-height: 1.6;
+  letter-spacing: 0;
+  overflow-wrap: anywhere;
+}
+
+.game-description {
+  color: #586779;
+  line-height: 1.9;
+}
+
+.game .choices .btn {
+  font-size: 1.1rem;
+  overflow-wrap: anywhere;
+}
+
+.game .bg-white h2 {
+  color: #26364a;
+}

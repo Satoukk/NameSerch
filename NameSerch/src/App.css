@@ -1,5 +1,5 @@
 .home {
-  background: #f5f8fc;
+  background: #fff;
   color: #26364a;
 }
 
@@ -22,8 +22,24 @@
   color: #586779;
   line-height: 1.9;
 }
+
+@media (max-width: 576px) {
+  .home.container, .game.container {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+  }
+  .home-content {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+  }
+  .home .btn {
+    width: 100%;
+    max-width: 22rem;
+    white-space: normal;
+  }
+}
 .game {
-  background: #f5f8fc;
+  background: #fff;
   color: #26364a;
 }
 
@@ -51,4 +67,15 @@
 
 .game .bg-white h2 {
   color: #26364a;
+}
+
+@media (max-width: 576px) {
+  .game .choices .btn {
+    min-height: 3.5rem;
+    padding-inline: 1rem;
+  }
+  .game .btn.rounded-pill {
+    max-width: 100%;
+    white-space: normal;
+  }
 }

@@ -1,0 +1,10 @@
+{
+  "name": "nameserch-workspace",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix NameSerch run dev",
+    "build": "npm --prefix NameSerch run build",
+    "lint": "npm --prefix NameSerch run lint",
+    "preview": "npm --prefix NameSerch run preview"
+  }
+}
